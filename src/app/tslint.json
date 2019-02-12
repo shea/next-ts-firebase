@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-airbnb", "tslint-config-prettier"],
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "no-submodule-imports": false,
+    "import-name": false,
+    "interface-name": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  }
+}
